@@ -1,0 +1,170 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Who We Fund
+{% endblock %}
+
+{% block main %}
+<h1 class="display-5">WHO WE FUND</h1>
+
+<div class="container-lg"><img src="{{url_for('static', filename='whowefundcoverphoto.jpg')}}" class="img-fluid" alt="Who We Fund Cover Photo">
+
+</div>
+
+
+<br>
+<!-- columns start here -->
+<div class="container">
+  <div class="row align-items-start">
+    <!--Internation rescue committee starts here-->
+    <div class="col">
+      <img src="{{url_for('static', filename='Logo-International-Rescue-Committee-charity.jpeg')}}" class="img-thumbnail" alt="...">
+      <h6> INTERNATIONAL RESCUE COMMITTEE </h6>
+      <button id="discoverbutton" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">DISCOVER ↗</button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">INTERNATIONAL RESCUE COMMITTEE</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        The International Rescue Committee (IRC) helps people affected by humanitarian crises to survive, recover and rebuild their lives. Founded at the request of Albert Einstein in 1933, the IRC now works in over 40 crisis-affected countries, as well as communities throughout Europe and the Americas. It is the largest refugee resettlement agency in the United States.
+       <br>
+      <br>
+      <a href="https://www.rescue.org" class="link-info">WWW.RESCUE.ORG ↗</a>
+      <br>
+      <br>
+      <img src="{{url_for('static', filename='international-rescue-committee-info.jpeg')}}" class="d-block w-100" alt="Syrian refugees">
+      </div>
+    </div>
+  </div>
+
+  <!--Edhi foundation starts here-->
+  <div class="col">
+      <img src="{{url_for('static', filename='edhifoundation1.jpg')}}" class="img-thumbnail" alt="...">
+      <h6> EDHI FOUNDATION</h6>
+      <button id="discoverbutton" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1" aria-controls="offcanvasRight1">DISCOVER ↗</button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel1">
+        <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel1">EDHI FOUNDATION</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          Edhi Foundation is the single best foundation across Pakistan and one of the best social welfare service providers across the world running on non-commercial, non-political, and non-communal basis, serving round-the-clock without any discrimination of color, class, and creed. We're funding it's activities in Pakistan.
+          <br>
+          <a href="https://www.edhi.org" class="link-info">WWW.EDHI.ORG ↗</a>
+          <br>
+          <br>
+          <img src="{{url_for('static', filename='edhi-foundation-bheek-mission.jpg')}}" class="d-block w-100" alt="Syrian refugees">
+        </div>
+      </div>
+  </div>
+
+    <div class="col">
+      <img src="{{url_for('static', filename='medair-charity.png')}}" class="img-thumbnail" alt="...">
+                <h6>MEDAIR</h6>
+      <button id="discoverbutton" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight2">DISCOVER ↗</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel2">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel2">MEDAIR</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+   Medair is an international humanitarian organisation dedicated to relieving human suffering in some of the world’s most remote and devastated places. It has been active in Afghanistan for 25 years. We are funding it's activities in Afghanistan.
+    <br>
+    <br>
+    <a href="https://www.medair.org" class="link-info">WWW.MEDAIR.ORG ↗</a
+    <br>
+    <br>
+     <img src="{{url_for('static', filename='medair-afghan.jpeg')}}" class="d-block w-100" alt="Syrian refugees">
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col">
+       <div class="col">
+      <img src="{{url_for('static', filename='unicef-charity.jpeg')}}" class="img-thumbnail" alt="...">
+      <h6> UNICEF </h6>
+      <button id="discoverbutton" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight3" aria-controls="offcanvasRight3">DISCOVER ↗</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel3">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel3">UNICEF</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    UNICEF works across more than 190 countries and territories to save children’s lives, defend their rights and help them fulfil their potential, from early childhood through to adolescence. We fund China to prepare communities for natural hazards.    <br>
+    <br>
+    <a href="https://www.unicef.org" class="link-info">WWW.UNICEF.ORG ↗</a>
+    <br>
+    <br>
+     <img src="{{url_for('static', filename='unicef-activity.png')}}" class="d-block w-100" alt="Syrian refugees">
+  </div>
+</div>
+</div>
+</div>
+
+    <div class="col">
+       <div class="col">
+      <img src="{{url_for('static', filename='savethechildren.png')}}" class="img-thumbnail" alt="...">
+      <h6> SAVE THE CHILDREN </h6>
+      <button id="discoverbutton" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4" aria-controls="offcanvasRight4">DISCOVER ↗</button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel4">
+        <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel4">SAVE THE CHILDREN</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        Save The Children is the world's leading expert on childhood, they believe that every child deserves a future and so do we. We fund the activities of Save The Children to give children a healthy start in life, the opportunity to learn and protection from harm.
+       <br>
+      <br>
+      <a href="https://www.savethechildren.org" class="link-info">WWW.SAVETHECHILDREN.ORG ↗</a>
+      <br>
+      <br>
+      <img src="{{url_for('static', filename='save_the_children_info.jpg')}}" class="d-block w-100" alt="Syrian refugees">
+      </div>
+    </div>
+  </div>
+    </div>
+
+    <div class="col">
+      <img src="{{url_for('static', filename='MSF-charity.png')}}" class="img-thumbnail" alt="...">
+      <h3> MEDECINS SANS FRONTIERES </h3>
+      <button id="discoverbutton" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight5" aria-controls="offcanvasRight5">DISCOVER ↗</button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight5" aria-labelledby="offcanvasRightLabel5">
+        <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel5">MEDECINS SANS FRONTIERES</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+       Médecins Sans Frontières (MSF) is an international medical humanitarian association that for 50 years has provided medical help to people whose lives or health are in danger, mainly as the result of armed conflicts, epidemics, or natural disasters. We fund MSF to respond to various emergencies across Africa and Asia, and recently also in Europe during the COVID-19 crisis.
+       <br>
+      <br>
+      <a href="https://www.msf.ch" class="link-info">WWW.MSF.CH ↗</a>
+      <br>
+      <br>
+      <img src="{{url_for('static', filename='msf-info.jpeg')}}" class="d-block w-100" alt="Syrian refugees">
+      </div>
+    </div>
+  </div>
+
+<!--
+  <div class="row align-items-end">
+    <div class="col">
+      <img src="{{url_for('static', filename='MSF-charity.png')}}" class="img-thumbnail" alt="...">
+    </div>
+
+
+    <div class="col">
+      <img src="{{url_for('static', filename='visionspring-charity.png')}}" class="img-thumbnail" alt="...">
+    </div>
+
+    <div class="col">
+      <img src="{{url_for('static', filename='ashoka-charity.jpeg')}}" class="img-thumbnail" alt="...">
+    </div>
+  </div>
+  -->
+</div>
+
+{% endblock %}

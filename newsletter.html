@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Newsletter Subscription
+{% endblock %}
+
+{% block main %}
+   <form action="/newsletter" method="post">
+       <div class="form-floating mb-3">
+           <input type="text" class="form-control" name="firstname" id="floatingText" placeholder="FIRST NAME">
+           <label for="floatingPassword">FIRST NAME</label>
+       </div>
+       <div class="form-floating mb-3">
+           <input type="text" class="form-control" name="lastname" id="floatingPassword" placeholder="LAST NAME">
+           <label for="floatingPassword">LAST NAME (OPTIONAL)</label>
+           </div>
+           <div class="form-floating mb-3">
+               <input type="email" class="form-control" name="email" id="floatingInput" placeholder="EMAIL">
+               <label for="floatingInput">EMAIL</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="organisation" id="floatingPassword" placeholder="ORGANISATION">
+                <label for="floatingPassword">ORGANISATION (OPTIONAL)</label>
+            </div>
+            <button type="submit" class="btn btn-outline-dark">Subscribe</button>
+            </form>
+<!--
+<a class="btn btn-outline-dark" href="/newsletter" role="button">Subscribe</a> -->
+
+{% endblock %}
